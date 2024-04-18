@@ -1,2 +1,3 @@
-print('hello world') 
-print('hello Andrey')
+class Bar(object):
+    __slots__ = ()
+
