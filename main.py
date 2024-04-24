@@ -1,5 +1,9 @@
-class Bar(object):
-    __slots__ = ()
+text = "abcdeggh"
+print(text[::2])
+# aceg
 
-def __call__(self, *args, **kwargs):
-    pass
+print(len(text))
+# 8
+
+a = "hello world"
+print("hello" in a)
