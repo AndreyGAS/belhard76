@@ -5,5 +5,7 @@ text = "My first home work"
 print("My first homework".replace(" ", "--"))
 
 # Varity 2
-a = 'My first homework'.replace(' ', '--')
-print(a)
+a = 'My first homework'
+words = a.split()
+b = "--".join(words)
+print(b)
