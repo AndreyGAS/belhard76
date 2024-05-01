@@ -3,7 +3,9 @@
 # для этих ключей будут браться с клавиатуры
 
 user_count = int(input("Введите количество пользователей для создания словаря: "))
-user_data = {user: {"name": input(f"Введите имя пользователя номер {user}: "),
-                    "email": input(f"Введите электронную пользователя номер {user}: ")}
-             for user in range(user_count)}
+user_data = {
+    user: {"name": input(f"Введите имя пользователя номер {user}: "),
+           "email": input(f"Введите электронную пользователя номер {user}: ")}
+    for user in range(user_count)
+}
 print(user_data)
