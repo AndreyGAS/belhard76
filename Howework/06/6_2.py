@@ -14,11 +14,10 @@ morse_code = {
 
 
 def morse_encode(text: str) -> object:
-    keys = list(morse_code.keys())
     code = ""
-    for letter in text:
-        if letter.upper() in keys:
-            code = code + morse_code[letter.upper()] + " "
+    for symbol in text.upper():
+        if symbol.upper() in morse_code:
+            code = code + morse_code[symbol] + " "
     return code
 
 
