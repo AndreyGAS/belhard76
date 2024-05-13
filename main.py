@@ -1,9 +1,11 @@
-from _ast import Try
+class User:
+    role = "User"
+    group = "simple user"
 
-n = 5
-numbers = [2 ** i for i in range(1, n+1)]
-for i in range(1, n+1):
-    numbers.append(2 ** i)
-    print(numbers)
+    def __init__(self, first_name: str) -> None:
+        self.first_name = first_name.title()
 
-Try
+    # Определение метода foo()
+    def foo(self):
+
+print(User)
