@@ -1,9 +1,9 @@
-text = "abcdeggh"
-print(text[::2])
-# aceg
+from _ast import Try
 
-print(len(text))
-# 8
+n = 5
+numbers = [2 ** i for i in range(1, n+1)]
+for i in range(1, n+1):
+    numbers.append(2 ** i)
+    print(numbers)
 
-a = "hello world"
-print("hello" in a)
+Try
